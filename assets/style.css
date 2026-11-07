@@ -1,0 +1,19 @@
+:root{--bg:#14151F;--card:#1E2030;--text:#F3F1F8;--muted:#A9A6BC;--accent:#FF7DB0;--line:#2C2E44}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Helvetica Neue",Arial,sans-serif;line-height:1.8;-webkit-text-size-adjust:100%}
+main{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:32px}
+.logo{font-weight:800;letter-spacing:.12em;font-size:20px;color:var(--text);text-decoration:none}
+.logo span{color:var(--accent)}
+nav a{color:var(--muted);font-size:14px;text-decoration:none;margin-left:14px}
+nav a:hover{color:var(--text)}
+h1{font-size:26px;line-height:1.4;margin:0 0 8px}
+h2{font-size:18px;margin:36px 0 8px;padding-top:20px;border-top:1px solid var(--line)}
+p,li{color:#DCD9E8}
+.meta{color:var(--muted);font-size:14px;margin-bottom:24px}
+a{color:var(--accent)}
+.cards{display:grid;gap:12px;margin-top:24px}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;text-decoration:none;color:var(--text)}
+.card strong{display:block;font-size:17px}
+.card span{color:var(--muted);font-size:14px}
+footer{margin-top:48px;color:var(--muted);font-size:13px}
